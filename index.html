@@ -1,106 +1,329 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="shortcut icon" id="favicon" href="img/GK-Logo.ico">
-		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="/css/style.css" rel="stylesheet" type="text/css">
-		<meta name="robots" content="noindex">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>Sup, It's Gen.</title>
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/">
-						<img src="img/GK-Logo.png"></a>
-					</a>
-				</div>
-				<div class="collapse navbar-collapse" id="main-navbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a class="nav-link" href="#about">ABOUT</a></li>
-						<li><a class="nav-link" href="#contact">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<header>
-			<img src="img/HeaderImage.png">
-		</header>
-		<section id="about">
-			<div class="container">
-				<h1>HAPPY BIRTHDAY!</h1> 
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 quote-container">
-						<div class="row">
-							<div class="col-xs-12 col-sm-4">
-								<img class="img-circle img-responsive img-thumbnail" src="img/alicewatson.png">
-							</div>
-							<div class="col-xs-12 col-sm-8">
-								<p>This may be the nerdest gift I have ever given anyone, but probably the most useful one as well! I was going to go with a league giftcard but Yim thought this was a better idea... so props to him (I guess :D).</p>
-								<p>- alice &amp; yim</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 quote-container quote-white">
-						<div class="row">
-							<div class="col-xs-12 col-sm-4">
-								<img class="img-circle img-responsive img-thumbnail" src="img/Hillary.png">
-							</div>
-							<div class="col-xs-12 col-sm-8">
-								<p>GEN! Happy Birthday!!! Thanks for always being there for me and always listening to all my random hehe. Here's to more laughs and (more sophisticated?) squirrel talks. (⌒o⌒)v</p>
-								<p>- hillary</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 quote-container quote-white">
-						<div class="row">
-							<div class="col-xs-12 col-sm-4">
-								<img class="img-circle img-responsive img-thumbnail" src="img/Sharon.png">
-							</div>
-							<div class="col-xs-12 col-sm-8">
-								<p>As you read all of this, I hope you're also admiring my beautiful headshot right next to this, in which all I have to say is: you're welcome. Just kidding..not really.</p>
-								<p>- sharon</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 quote-container">
-						<div class="row">
-							<div class="col-xs-12 col-sm-4">
-								<img class="img-circle img-responsive img-thumbnail" src="img/Amber.png">
-							</div>
-							<div class="col-xs-12 col-sm-8">
-								<p>Dear Genevieve, <br>Happy 23rd birthday! Looking forward to making more sweet, sweet memories with you. ;)</p>
-								<p>- amber</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 text-center">
-						<img src="img/Gen.jpg">
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						<h1>CONTACT ME</h1>
-						<p class="contact-desc"><span class="contact-name">Gen</span><br><a href="mailto:gzkam@ucdavis.edu"> </a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<script src="/js/jquery-1.11.3.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-	</body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+
+    <title>Gen's Portfolio</title>
+    <link rel="shortcut icon" id="favicon" href="img/GK-Logo.ico">
+
+    <!-- CSS  -->
+    <link href="css/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body id="top" class="scrollspy">
+
+
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="purple lighten-1" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo"><img src="img/GK-Logo.png"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#portfolio">My Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#portfolio">My Potfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+<!-- Title Banner -->
+    <div class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br>
+                <br>
+                <h1 class="header center ">Genevieve Kam</h1>
+                <div class="row center">
+                    <h5 class="col s12">"'Software Developer' – An organism that turns caffeine into software.."</h5>
+                </div>
+                
+                <div class="row center">
+                    <a href="http://www.github.com/munmuney" class="btn-large waves-effect waves-light purple darken-1" target="_blank">Github</a>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/nanomortis.jpg" alt="https://nanomortis.deviantart.com/"></div>
+    </div>
+
+
+
+
+    <!-- About Me -->
+    <div id="intro" class="scrollspy container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col l4 s12">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="mdi-navigation-chevron-left"></i></h2>
+                        <h5 class="center">Before</h5>
+                        <p class="light">I graduated from UC Davis in Electrical Engineering. I've developed projects such as antenna design and radar system using KiCad, Advanced Design System (ADS), Cadence Allegro, and HFSS. I wanted to know the behind-the-scene functionality of the machine that I designed. So I decided to learn web development so I can be knowledgeable in both the hardware and software side of technology.</p>
+                    </div>
+                </div>
+
+                <div class="col l4 s12">
+                    <img src="img/gen.jpg" alt="gen" id="gen">
+                </div>
+
+
+                <div class="col l4 s12">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="mdi-navigation-chevron-right"></i></h2>
+                        <h5 class="center">After</h5>
+                        <p class="light">I am proficient in HTML, CSS, JavaScript, GIT, NodeJS, MongoDB, and MySQL. I love being able to start a simple design and turning it into an amazing product. I like to imagine what tools to use in my application and how I would implement them into my application. I specifically enjoy working with other web developers and being able to learn from them. I look forward in further developing my skills for future projects. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+                <div class="row center">
+                    <h2 class="header s12">My Portfolio</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax"><img src="img/keyboard.jpg" alt="keyboard"></div>
+    </div>
+
+<!--Portfolio-->
+<div class="scrollspy" id="portfolio">
+    <br/>
+    <br/>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/NYT.png">
+                    </div>
+                    <div class="card-content link">
+                        <span class="card-title activator grey-text text-darken-4">React NYT Search <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/munmuney/NYT_React_Search" target="_blank">Project Link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">React New York Times Search<i class="mdi-navigation-close right"></i></span>
+                        <p>This project is a React-based application that utilizes the React mounting lifecycle to query and display articles based on user searches. Users can also save articles and can be found in the save tab.
+                        </p>
+                        <p class="link"><a href="https://polar-ridge-12020.herokuapp.com/" target="_blank">Demo</a></p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/Homepage.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"> Homepage <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/munmuney/Homepage" target="_blank">Project Link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">The Homepage <i class="mdi-navigation-close right"></i></span>
+                        <p>This group project is an application that changes standard browser tab to sa beautiful new tab page with quick access to users bookmarks and most visited pages.</p>
+                        <p><a href="https://desolate-reaches-46556.herokuapp.com/" target="_blank">Demo</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/ff.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Friend Finder <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/munmuney/FriendFinder" target="_blank">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Friend Finder <i class="mdi-navigation-close right"></i></span>
+                        <p>This compatibility-based application takes in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.</p>
+                        <p><a href="https://hidden-forest-55687.herokuapp.com/" target="_blank">Demo</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Next row -->
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project2.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Liri Node App <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/munmuney/Liri-Node-App" target="_blank">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Liri Node App <i class="mdi-navigation-close right"></i></span>
+                        <p>The LIRI (Language Interpretation and Recognition Interface) application is a command line node app that takes in parameters and gives back data.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/clock.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pomodoro Clock <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#" target="_blank">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pomodoro Clock <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                        <p><a href="#" target="_blank">Demo</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/trivia.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Trivia Game <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/munmuney/TriviaGame" target="_blank">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Trivia Game <i class="mdi-navigation-close right"></i></span>
+                        <p>This simple Trivia game application allows users to answer questions given and display the score afterwards.</p>
+                        <p><a href="https://munmuney.github.io/TriviaGame/" target="_blank">Demo</a></p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+                <div class="row center">
+                    <h2 class="header s12">Contact Me</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax"><img src="img/auroralion.jpg" alt="https://auroralion.deviantart.com/"></div>
+    </div>
+
+
+
+<!--Footer-->
+<footer id="contact" class="page-footer purple darken-1 lighten-1 scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <br/>
+                <br/>
+                <form class="col s12" action="contact.php" method="post">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="mdi-action-account-circle prefix white-text"></i>
+                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
+                            <label for="icon_prefix" class="white-text">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="mdi-communication-email prefix white-text"></i>
+                            <input id="icon_email" name="email" type="email" class="validate white-text">
+                            <label for="icon_email" class="white-text">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="mdi-editor-mode-edit prefix white-text"></i>
+                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                            <label for="icon_prefix2" class="white-text">Message</label>
+                        </div>
+                        <div class="col offset-s7 s5">
+                            <button class="btn waves-effect waves-light blue-grey" type="submit">Submit
+                                <i class="mdi-content-send right white-text"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="col l6 s12">
+                <div class="icon-block card hoverable ">
+                    <br/>
+                    <h2 class="center blue-grey-text "><i class="mdi-file-file-download"></i></h2>
+                    <p class="center">My resume is available for download below.  If you have any questions, feel free to contact me on the left!</p>
+                    <br/>
+                    <div class="center "><a onclick="window.open( 'GenKResume.pdf') " id="pdf-button " class="btn-large waves-effect waves-light blue-grey lighten-1 ">DOWNLOAD RESUME</a></div>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-copyright default_color">
+        <div class="container right-align ">
+            © CopyRight 2017 | Genevieve Kam. Power by <a class="white-text" href="http://materializecss.com/">MaterializeCSS</a> . Images by <a class="white-text" href="https://nanomortis.deviantart.com/">Nanomortis</a> & <a class="white-text" href="https://auroralion.deviantart.com/">Auroralion</a>
+        </div>
+    </div>
+
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="js/plugin-min.js"></script>
+    <script src="js/custom-min.js"></script>
+
+    </body>
 </html>
+

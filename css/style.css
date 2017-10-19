@@ -1,63 +1,88 @@
-.navbar-brand {
-	padding: 6px;
-}
-.navbar-brand>img {
-	max-height: 100%;
-}
-header img {
-	width: 100%;
-}
-header h1,
-header h2,
-header h3,
-header h4,
-header p {
-	color: white;
-}
-.container {
-	position: relative;
-	z-index: 2;
-}
-section {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: black;
-	color: white;
-}
-h1 {
-	font-weight: bold;
-	font-size: 42px;
-	margin-bottom: 20px;
-}
-.quote-container {
-	padding: 20px;
-}
-.quote-white {
-	background-color: white;
-	color: black;
-}
-.quote-white img {
-	border: 1px solid black;
-	background-color: black;
-}
-#contact img {
-	max-height: 600px;
-	max-width: 100%;
-	opacity: 0.5;
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat|Cinzel+Decorative|Bellefair');
 
+
+body {
+    font-family: "Bellefair";
 }
-.contact-desc {
-	font-size: 28px;
-	margin-top: 80px;
+
+.icon-block {
+    padding: 0 15px;
 }
-.contact-name {
-	font-weight: bold;
+
+.brand-logo{
+    margin-top: 7px;
+    width:45px;
+    height: 45px;
 }
-a {
-	color: white;
+
+.brand-logo img {
+    max-height: 100%;
 }
-a:hover,
-a:focus,
-a:visited {
-	color: white;
+
+.link a {color: #2196F3;}
+
+.link a:hover {color: #2162f3;}
+
+
+
+nav ul a {
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+    font-family: "Bellefair";
+}
+
+#gen {
+    width:300px;
+    height:360px;
+    margin-top: 120px;
+}
+
+.header {
+    color: white;
+    font-family: "Cinzel Decorative";
+    text-shadow: 3px 3px 3px black;
+}
+
+
+
+.light {
+    font-size: 18px;
+}
+
+
+
+.card img:hover {
+      opacity: 0.6;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .text_h {
+        padding: 4% 0;
+        font-size: 5em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
+input, textarea {
+    border-bottom: 1px solid #fff;
+}
+
+nav a.button-collapse {
+    left: -25px;
+}
+
+
+
+.parallax-container {
+    max-height: 400px;
+}
+
+footer.page-footer {
+    margin-top: 0px !important;
 }
