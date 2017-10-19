@@ -48,6 +48,9 @@ nav ul a {
     text-shadow: 3px 3px 3px black;
 }
 
+.shadow {
+    text-shadow: 3px 3px 3px purple;
+}
 
 
 .light {
