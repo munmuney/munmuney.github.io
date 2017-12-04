@@ -35,6 +35,9 @@ nav ul a {
     font-family: "Bellefair";
 }
 
+#menu-icon {
+    padding-left: 12px;
+}
 #gen {
     width:300px;
     height:380px;
